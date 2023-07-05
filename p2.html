@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Lorem Ipsum Contact</title>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="p2.html">Contact</a></li>
+            <li><a href="p3.html">News</a></li>
+            <li><a href="p4.html">About</a></li>
+        </ul>
+    </nav>
+
+<!-- html form with a minimum of
+1 fieldset
+3 inputs
+    2 text
+    1 checkbox
+1 textarea
+appropriate labels for the above
+1 button -->
+<div class="form-container">
+    <form>
+        <fieldset>
+            <legend> Contact Information</legend>
+            <div>
+                <label for="firstName">First Name: </label>
+                <input type="text" name="firstName" id="firstName">
+            </div>
+
+            <div>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div>
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">Subscribe to Newsletter</label>
+            </div>
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
